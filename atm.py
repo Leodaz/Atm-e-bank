@@ -4,11 +4,11 @@ import numpy
 
 class Account:
     depositFrequency = 4
-    transactionMax = 40000
+    transactionMax = 400000
    # Construct an Account object. Mde to
-    def __init__(self, id, balance = 0, withdrawalDailyMax = 50000,
+    def __init__(self, id, balance = 5000000, withdrawalDailyMax = 50000,
     withdrawalFrequency=3,withdrwalTransactionMax=20000, depoDailyMax = 150000, 
-    depositFrequency = 4, depoTransactionMax = 40000):
+    depositFrequency = 4, depoTransactionMax = 400000):
         self.id = id
         self.balance = balance
         # withdral
